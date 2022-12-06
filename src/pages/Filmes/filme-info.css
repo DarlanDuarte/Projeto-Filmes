@@ -1,0 +1,51 @@
+.filme-info{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+.filme-info h1{
+    font-size: 30px;
+    color: black;
+    margin: 15px 0 15px 0;
+}
+
+.filme-info h3{
+    margin: 5px 0 5px 0;
+}
+
+.filme-info img{
+    border-radius: 20px;
+}
+
+.filme-info button{
+    outline: none;
+    margin: 15px 10px 0 0;
+    font-size: 15px;
+    padding: 8px;
+    width: 100px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    transition: all 0.5s;
+
+}
+
+.filme-info button:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+.filme-info a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.filme-info a:hover{
+    color: aliceblue;
+}
+
+
+
+
