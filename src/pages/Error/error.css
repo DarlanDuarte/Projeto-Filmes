@@ -1,0 +1,27 @@
+
+.error-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+.error-btn{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(14, 39, 61);
+    color: aliceblue;
+    border-radius: 8px;
+    margin-top: 5px;
+    transition: all 0.5s;
+}
+
+.error-btn:hover{
+    background-color:brown;
+    color: whitesmoke;
+}

@@ -1,0 +1,37 @@
+.meus-filmes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul span{
+    font-size: 18px;
+}
+
+ul li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 650px;
+    margin: 5px;
+}
+
+ul li div a{
+    text-decoration: none;
+    color: brown;
+
+    
+}
+
+button{
+    margin-left: 10px;
+    padding: 2px 5px;
+}

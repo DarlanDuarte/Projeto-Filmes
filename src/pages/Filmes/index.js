@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 
 import './filme-info.css'
 import api from "../../services/api";
+import { toast } from "react-toastify";
 
 export default function Filmes(){
     const { id } = useParams()
@@ -48,26 +49,15 @@ export default function Filmes(){
         const repeatFilme = filmesSalvos.some((filmeSalvo) => filmeSalvo.id === filmes.id )
 
         if(repeatFilme){
-            alert('Voce ja possui esse filme Salvo')
+            toast.info('Voce já possui esse filme salvo')
             return;
         }
 
         filmesSalvos.push(filmes)
         localStorage.setItem('filmes', JSON.stringify(filmesSalvos))
-        alert('Filme Salvo com Sucesso')
-
-        
-
+        toast.success('Filme salvo com sucesso')
 
     }
-
-
-
-
-
-
-
-
 
     if(loading === true){
         return(
